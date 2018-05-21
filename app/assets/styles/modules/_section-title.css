@@ -10,7 +10,14 @@ font-size: 3.75rem;
 		font-weight: 500;
 	}
 
+	&--blue {
+		color:$mainBlue;
+	}
+
 	&__icon{
+		position: relative;
+			top:8px;
+		
 		
 		display:block;
 		margin-right: auto;
@@ -18,11 +25,13 @@ font-size: 3.75rem;
 		margin-bottom: .6rem;
 
 		@mixin atSmall {
-			margin-right: .5rem;
-			display:inline-block;
-			margin-bottom: 0;
-			margin-right: 0;
+
+			margin-right: .5em;
+			
 			margin-left: 0;
+			margin-bottom: 0;
+			display:inline-block;
 		}
 	}
+	
 }
